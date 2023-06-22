@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="shortcut icon" href="./imgs/table_icon-icons.com_69867.png" type="image/x-icon">
+</head>
+<style>
+    nav{
+        display: inline-block;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+
+    form{
+        margin: 0 auto;
+        box-sizing: border-box;
+        padding: 10%;
+        border: 3px solid blue;
+        width: 50%;
+        border-radius: 15%;
+        text-align: center;
+    }
+
+    .btnForm{
+        padding: 7px 15px;
+        border-width: 2px;
+        border-style: solid;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+
+
+</style>
+<body>
+    
+    <header>
+        <img src="./imgs/Star_Wars_Logo.svg.png" height="90" width="90" alt="logo">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <a href="./register.html"><li>Registro</li></a> 
+                <li>Cuentas</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" name="login" method="POST">
+            <label for="username">Nombre de usuario: </label><br>
+            <input class="btnForm" type="text" name="username" required id="username" placeholder="Escribe tu usuario aqui" minlength="3"><br><br>
+            <label for="password">Contraseña: </label><br>
+            <input class="btnForm" type="password" id="password" name="password" maxlength="8" required placeholder="Ingresa tu contraseña"><br><br>
+            <input class="btnForm" type="submit" value="iniciar sesion">
+    </form>
+    </main>
+
+
+</body>
+</html>
